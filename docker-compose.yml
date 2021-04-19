@@ -1,0 +1,9 @@
+version: "3.69"
+
+services:
+    tensorflow:
+        build: .
+        container_name: tensorflow_dog2
+        volumes:
+            - '.:/workspace'
+        tty: true
