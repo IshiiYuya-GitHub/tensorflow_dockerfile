@@ -3,7 +3,13 @@ version: "3.69"
 services:
     tensorflow:
         build: .
+<<<<<<< HEAD
         container_name: tensorflow_dog2
         volumes:
             - '.:/workspace'
         tty: true
+=======
+        container_name: tensorflow_dog
+        volumes:
+            - '.:/workspace'
+>>>>>>> origin/main
